@@ -13,9 +13,9 @@ public class ArrayPract {
    }
    public static void arrayElements(String[] array){
       int lengthArray=array.length-1;
-      String d= array[0];
+      String indexOne= array[0];
       array[0]=String.valueOf(array[lengthArray]);
-      array[lengthArray]=String.valueOf(d);
+      array[lengthArray]=String.valueOf(indexOne);
       for(int i = 0; i<=lengthArray;i++){
          System.out.println(array[i]);
     }
