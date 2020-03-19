@@ -7,22 +7,18 @@ public class ArrayPract {
     Swap the positions of the A1 and C3 element so that the array now looks like this  {"C3", "B2", "A1"};
     */
 
-
-
    public static void main(String[] args) {
       String[] array = {"A1","B1","C1","D1"};
-  arrayElements(array);
+      arrayElements(array);
    }
    public static void arrayElements(String[] array){
-
       int lengthArray=array.length-1;
-      int first = 0;
       String d= array[0];
       array[0]=String.valueOf(array[lengthArray]);
       array[lengthArray]=String.valueOf(d);
       for(int i = 0; i<=lengthArray;i++){
          System.out.println(array[i]);
-      }
+    }
 
    }
 }
